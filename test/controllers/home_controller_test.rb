@@ -6,11 +6,6 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get help" do
-    get home_help_url
-    assert_response :success
-  end
-
   test "should get about" do
     get home_about_url
     assert_response :success
